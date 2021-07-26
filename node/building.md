@@ -3,8 +3,6 @@
 ```bash
 FROM node:14 as build
 
-MAINTAINER Envira Sostenible
-
 # Create app directory
 WORKDIR /usr/src/app
 
