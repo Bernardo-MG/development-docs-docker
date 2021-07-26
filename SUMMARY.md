@@ -1,5 +1,5 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Common commands](README.md)
 * [Cleaning up](cleaning-up.md)
 
