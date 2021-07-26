@@ -13,5 +13,19 @@ EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 ```
 
+## Configuration file
 
+```text
+server {
+  listen 80;
+  
+  location / {
+    root /usr/share/nginx/html;
+    index index.html index.htm;
+    try_files $uri $uri/ /index.html =404;
+  }
+  
+  include /etc/nginx/extra-conf.d/*.conf;
+}
+```
 
