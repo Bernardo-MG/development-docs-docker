@@ -12,7 +12,7 @@ COPY package*.json ./
 # Continuous Integration installation
 RUN npm ci
 
-# Copy, build and deploy project
+# Copy and build
 COPY . .
 RUN npm run build
 ```
