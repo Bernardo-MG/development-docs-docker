@@ -10,5 +10,9 @@
 ## Deployment
 
 * [Nginx](deployment/nginx.md)
-* [Maven](deployment/maven.md)
+* [Tomcat](deployment/maven.md)
+
+## Java
+
+* [Building](java/building.md)
 

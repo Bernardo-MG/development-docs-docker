@@ -1,4 +1,4 @@
-# Maven
+# Tomcat
 
 ```text
 FROM tomcat:8 as deployment
