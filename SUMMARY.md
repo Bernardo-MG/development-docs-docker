@@ -10,4 +10,5 @@
 ## Deployment
 
 * [Nginx](deployment/nginx.md)
+* [Maven](deployment/maven.md)
 
