@@ -1,5 +1,11 @@
 # IPs
 
+## Using alias
+
+```text
+CMD java -jar centros.war --spring.data.mongodb.host=host.docker.internal
+```
+
 ## Finding IP to host
 
 ```text
