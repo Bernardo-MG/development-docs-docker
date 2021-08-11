@@ -4,6 +4,10 @@
 * [Cleaning up](cleaning-up.md)
 * [IPs](ips.md)
 
+## Info
+
+* [Info](info/info.md)
+
 ## Java
 
 * [Building](java/building.md)
