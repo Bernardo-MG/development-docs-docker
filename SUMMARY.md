@@ -22,6 +22,10 @@
 * [Nginx](deployment/nginx.md)
 * [Tomcat](deployment/maven.md)
 
+## Sidecar Docker
+
+* [Docker in Docker](sidecar-docker/docker-in-docker.md)
+
 ## Compose
 
 * [Commands](compose/commands.md)
