@@ -8,6 +8,10 @@
 
 * [Info](info/info.md)
 
+## Access the Image
+
+* [Connecting](access-the-image/connecting.md)
+
 ## Java
 
 * [Building](java/building.md)
