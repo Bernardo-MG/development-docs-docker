@@ -12,6 +12,10 @@
 
 * [Connecting](access-the-image/connecting.md)
 
+## Database
+
+* [MariaDB](database/mariadb.md)
+
 ## Java
 
 * [Building](java/building.md)
