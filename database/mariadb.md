@@ -32,3 +32,15 @@ FROM mariadb:latest
 COPY --from=build /initialized-db /var/lib/mysql
 ```
 
+## Case Insensitive
+
+```text
+services:
+    database:
+        build: ./database
+        container_name: demodb
+        command: --lower_case_table_names=1
+        ports: 
+            - "3306:3306"
+```
+
