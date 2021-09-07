@@ -12,6 +12,10 @@
 
 * [Connecting](access-the-image/connecting.md)
 
+## Building
+
+* [Relative path](building/relative-path.md)
+
 ## Database
 
 * [MariaDB](database/mariadb.md)
