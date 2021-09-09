@@ -3,7 +3,7 @@
 ```text
 project:
     build:
-      context: ./
+      context: ../
       dockerfile: ./docker/Dockerfile
 ```
 
