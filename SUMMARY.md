@@ -23,6 +23,7 @@
 ## Java
 
 * [Building](java/building.md)
+* [Caching Dependencies](java/caching-dependencies.md)
 * [Spring Boot Deployment](java/spring-boot-deployment.md)
 
 ## Node
