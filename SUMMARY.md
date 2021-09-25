@@ -3,6 +3,7 @@
 * [Common commands](README.md)
 * [Cleaning up](cleaning-up.md)
 * [IPs](ips.md)
+* [Dependencies Between Images](dependencies-between-images.md)
 
 ## Info
 
