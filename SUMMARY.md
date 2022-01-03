@@ -26,6 +26,7 @@
 * [Building](java/building.md)
 * [Caching Dependencies](java/caching-dependencies.md)
 * [Spring Boot Deployment](java/spring-boot-deployment.md)
+* [Tomcat](java/tomcat.md)
 
 ## Node
 
@@ -43,4 +44,3 @@
 ## Compose
 
 * [Commands](compose/commands.md)
-

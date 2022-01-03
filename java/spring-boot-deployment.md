@@ -1,6 +1,6 @@
 # Spring Boot Deployment
 
-```text
+```docker
 FROM openjdk:8-jre-alpine as deployment
 
 WORKDIR /app
@@ -12,4 +12,3 @@ EXPOSE 8080
 
 CMD ["java", "-jar", "project.war"]
 ```
-

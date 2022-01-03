@@ -1,6 +1,6 @@
 # MariaDB
 
-```text
+```docker
 # -----------------------------------------------------------------------------
 # BUILD STAGE
 # -----------------------------------------------------------------------------
@@ -30,11 +30,18 @@ RUN ["/usr/local/bin/docker-entrypoint.sh", "mysqld", "--datadir", "/initialized
 FROM mariadb:latest
 
 COPY --from=build /initialized-db /var/lib/mysql
+
+EXPOSE 3306
+
+# Health check
+HEALTHCHECK --interval=30s --retries=5 --timeout=10s CMD mysql --user=demodb --password=demodb -e 'SHOW DATABASES;'
+
+CMD ["mysqld", "--lower_case_table_names=1"]
 ```
 
 ## Case Insensitive
 
-```text
+```
 services:
     database:
         build: ./database
@@ -44,3 +51,10 @@ services:
             - "3306:3306"
 ```
 
+## Enforce timezone
+
+```
+# Enforce timezone
+ENV TZ=GMT
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+```

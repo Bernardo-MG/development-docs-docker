@@ -1,6 +1,6 @@
 # Building
 
-```bash
+```docker
 FROM node:14 as build
 
 # Create app directory
@@ -16,6 +16,4 @@ RUN npm ci
 COPY . .
 RUN npm run build
 ```
-
-
 

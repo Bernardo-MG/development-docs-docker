@@ -1,6 +1,6 @@
 # Nginx
 
-```text
+```docker
 FROM nginx:1.13.12-alpine as deployment
 
 # Copy from build stage
@@ -15,7 +15,7 @@ CMD ["nginx", "-g", "daemon off;"]
 
 ## Configuration file
 
-```text
+```
 server {
   listen 80;
   
@@ -28,4 +28,3 @@ server {
   include /etc/nginx/extra-conf.d/*.conf;
 }
 ```
-
